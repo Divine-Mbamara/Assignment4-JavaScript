@@ -1,0 +1,36 @@
+/*Body styling*/
+body{
+    background-color: rgb(120, 108, 108);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+/*Title tags*/
+h1,h2{
+    font-family: 'Lobster', sans-serif;
+}
+/*Body-level tags*/
+p, label, span, input, button{
+    font-family: 'Bree Serif', sans-serif;
+}
+/*Button*/
+button{
+    background-color: #444c5c;
+    color: white;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #ffd700;
+    color: #444c5c;
+}
+/*Weather Report*/
+#weatherResult{
+    display: none;
+    background-color: rgba(236, 235, 235, 0.75);
+    border: 2px solid black;
+    padding: 0 20px;
+    margin: 15px 450px;
+    border-radius: 12px;
+}

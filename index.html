@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Assignment 4 | COMP1073 Client-Side JavaScript</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--CSS-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--JavaScript-->
+        <script src="js/script.js" defer></script>
+        <!--Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Title and Student Number-->
+        <div>
+            <h1>Weather API</h1>
+            <p id="studentNum"></p>
+        </div>
+        <!--City Input-->
+        <div class="input-section">
+            <input type="text" id="cityInput" placeholder="Enter city name"></input>
+            <button id="weatherButton">Get Weather</button>
+        </div>
+        <!--Result-->
+        <div id="weatherResult"></div>
+        <!--Slider to show temperature-->
+        <div class="slider-section">
+            <label for="tempSlider">Simulate Temperature:</label>
+            <input type="range" id="tempSlider" min="-10" max="40" value="">
+            <span id="sliderValue">0°C</span>
+        </div>
+        <footer>
+            <!--Weather API Documentation-->
+            <p>
+                Documentation: <a href="https://openweathermap.org/current">Weather API</a>
+            </p>
+        </footer>
+    </body>
+</html>
