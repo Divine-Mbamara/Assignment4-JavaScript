@@ -23,7 +23,7 @@ button{
 }
 button:hover{
     background-color: #ffd700;
-    color: #444c5c;
+    color: #4e324e;
 }
 /*Weather Report*/
 #weatherResult{
