@@ -7,6 +7,9 @@ body{
     text-align: center;
     flex-direction: column;
 }
+a{
+    color: darkcyan;
+}
 /*Title tags*/
 h1,h2{
     font-family: 'Lobster', sans-serif;
